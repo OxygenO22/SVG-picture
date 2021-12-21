@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Homework_№12_25.10.21</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="svg__container">
+         <svg id='svg' style="width: 600px; height: 400px">
+            <g class="figure" id="circle">
+               <circle cx='90' cy='90' r='60' style="fill:rgb(232, 248, 4); stroke:black; stroke-width:0.1cm" />
+            </g>
+            <g class="figure" id="rect" style="fill-opacity: 0.7;">
+               <rect x='250' y='170' width='200' height='220'
+                  style="fill:rgb(92, 60, 19); stroke:black; stroke-width:0.1cm" />
+            </g>
+            <g class="figure" id="triangle" style="fill-opacity: 0.5;">
+               <polygon points='230,170 350,90 470,170'
+                  style="fill:rgb(221, 223, 203); stroke:black; stroke-width:0.1cm" />
+            </g>
+         </svg>
+      </div>
+
+      <div class="buttons__container">
+         <button class="but__circle"><span>Show Circle</span></button>
+         <button class="but__rect">Show Rect</button>
+         <button class="but__triangle">Show Triangle</button>
+      </div>
+   </div>
+
+
+   <script src="js/app.js"></script>
+</body>
+
+</html>
